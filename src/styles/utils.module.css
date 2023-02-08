@@ -3,17 +3,8 @@
     position: relative;
     width: 736px;
     height: 359px;
-
-    /* Background Color */
-
     background: #FEFCF5;
-    /* Card Overline
-
-    Borders of the cards
-    */
     border: 1px solid #CAC5B7;
-    /* Soft_shadow */
-
     box-shadow: -3px 0px 16px rgba(0, 0, 0, 0.1);
     border-radius: 16px;
 }
@@ -296,4 +287,13 @@
 .updateFlex{
     display: flex;
     flex-direction: column;
+}
+
+.tempFlex {
+    display: flex;
+}
+
+.strike {
+    text-decoration: line-through;
+    padding-left: 5px;
 }
